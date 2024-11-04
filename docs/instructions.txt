@@ -1,0 +1,20 @@
+Backend
+Elaborar uma aplicação de backend utilizando a linguagem de programação Python que deverá conter uma API. Sua aplicação conterá ao menos 2 endpoints, sendo um para efetuar a consulta dos filmes e o segundo para consultar o histórico de pesquisas.
+
+Ao realizar a consulta, uma chamada para uma api pública deverá ser realizada e um log dessa
+operação deverá ser feito. Salvar o histórico de chamadas em um banco de dados, para consulta
+posterior conforme informado no frontend. Utilize a api https://the-one-api.dev. Será necessário criar uma conta e subscrever para utilizar essa API, porém é possível fazê-lo de forma gratuita.
+
+Frontend
+Elaborar uma aplicação de frontend utilizando ReactJS onde o usuário deverá digitar o seu nome, e o nome de um filme. Em uma segunda página o log de todas as consultas deverá ser apresentado em uma tabela. Utilize o rascunho abaixo como inspiração. Sua aplicação frontend deverá consultar o backend, que por sua vez fará a tratativa e persistência dos dados.
+
+A aplicação resultante deverá ser enviada ao seu GitHub em um repositório público, encaminhando o link ao time de recrutamento.
+
+Requisitos:
+Linguagem de programação Python para o backend e ReactJS para o frontend;
+Virtualização de container utilizando Docker;
+Elaborar os endpoints utilizando padrão REST;
+Poderá utilizar seu banco de dados à seu gosto, mas dê preferência para bancos não relacionais, como MongoDB;
+Utilizar quaisquer bibliotecas e frameworks à seu gosto (requests, flask, django, pymongo, etc), porém a chamada da API deve ser feita diretamente sem o uso de bibliotecas terceiras;
+Elaborar um README com, no mínimo, as instruções referentes à subir o ambiente da sua aplicação;
+Bônus: envie para o repositório quaisquer artefatos que tenha utilizado para implementar essa aplicação (collections do postman, testes unitários, etc);
